@@ -255,7 +255,7 @@ function exercise9(item) {
       answer9 = "You are one in a million!";
       break;
       default:
-        answer = "Please send a number, that was a <data type>."
+        answer = "Please send a number, that was a," + typeof item + "."
         break;
         
    }
