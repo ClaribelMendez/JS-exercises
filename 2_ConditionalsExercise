@@ -59,7 +59,7 @@ function exercise1(num1) {
   if (num1 > 10){
     return answer1 = "The value of num1 is " + num1 + " and is greater than 10";
   }else {
-    return answer1
+    return answer1;
   }
   // ------------------------------------------
   // And above here
@@ -134,7 +134,7 @@ function exercise4(varA, varB) {
   if ((varA && varB ==="" || varA && varB !== NaN) && varA === varB){
     return answer4 = "varA and varB are equal";
   }else {
-    return answer4 = "varA and varB differ"
+    return answer4 = "varA and varB differ";
     }
   --------------------------------------
   // And above here
@@ -146,6 +146,8 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
+
+// These data types didn't return equal: null and undefined
 
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
@@ -222,9 +224,9 @@ function exercise8(amount1, amount2, minimum, maximum) {
   // --------------------------------------------
     
   if ((amount1 > minimum amount2 > minimum && amount1 < maximum && amount2 < maximum){
-    return answer8 = true
+    return answer8 = true;
   } else{
-    return answer8 = false
+    return answer8 = false;
   }
   // --------------------------------------------
   // And above here
@@ -287,7 +289,7 @@ function exercise10(num10) {
     }else if (num10 % 15 === 0){
       return answer10 = "Fizz Buzz";
     }else {
-      return answer10 = num10
+      return answer10 = num10;
    }
      
   // --------------------------------------------
