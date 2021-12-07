@@ -150,7 +150,7 @@ function exercise4(varA, varB) {
   }else {
     return answer4 = "varA and varB differ";
     }
-  --------------------------------------
+  // --------------------------------------
   // And above here
   // --------------------------------------------
   return answer4;
