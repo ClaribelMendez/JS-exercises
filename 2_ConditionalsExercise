@@ -70,7 +70,7 @@ function exercise1(num1) {
 console.log(exercise1(5));
 console.log(exercise1(50));
 console.log(exercise1(-1));
-console.log(exercise1(10));
+console.log(exercise1(100));
 
 // EXERCISE 2.
 // Write an if/else conditional statement that if given a number will assign
@@ -159,7 +159,7 @@ function exercise4(varA, varB) {
 console.log(exercise4('hello', 'hello'));
 console.log(exercise4(5,5));
 console.log(exercise4('hello', 'bye'));
-console.log(exercise4(5,10);;
+console.log(exercise4(5,10));
 console.log(exercise4(true, true)); 
 console.log(exercise4(false, false));
 
@@ -214,7 +214,7 @@ function exercise7(num7) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // -------------------------------------------- 
-let answer7;
+
   switch (num7){
     case 1:
       answer7 = "You won!";
@@ -242,7 +242,7 @@ console.log(exercise7(7));
 console.log(exercise7(1));
 console.log(exercise7(101));
 console.log(exercise7(5));
-console.log(exercise7('test));
+console.log(exercise7('test'));
 
 
 // EXERCISE 8.
@@ -295,7 +295,7 @@ function exercise9(item) {
       answer9 = "You are one in a million!";
       break;
       default:
-        answer = "Please send a number, that was a," + typeof item + "."
+        answer9 = "Please send a number, that was a " + typeof item + "."
         break;
         
    }
@@ -352,4 +352,5 @@ console.log(exercise10(7));
 // Please answer in a comment below.
 // I found this to be more on the easier side except for figuring out how I would write the if statement in exercise # 8. I knew what the conditions had to be, 
 // but had to write it a few different ways and I know understand why there wouldn't be parenthesis in between the statements for this problem.
+// I found exercise #10 to be tricky because 15 is also divisble by 3 and 5, so I made that the first condition, so it wouldn't bypass it.
 // Email your file to us or commit your file to GitHub and email us a link.
