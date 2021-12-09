@@ -192,6 +192,7 @@ for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+// It was fairly easy, I mainly had to search for how to write the loops and review when to use each one so that I understand clearly.
+// I used MDN, Stackoverflow, Freecodecamp and different google searches.
 
 // Email your file to us or commit your file to GitHub and email us a link.
