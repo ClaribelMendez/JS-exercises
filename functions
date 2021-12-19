@@ -12,8 +12,8 @@
 // Exercise 1. Define a function called logGreeting() that prints the string “Hello!” (use console.log).
 // Underneath the function, write the line of code that runs the function.
 
-function logGreeting(){
-console.log("Hello!");
+function logGreeting() {
+  console.log("Hello!");
 }
 logGreeting()
 
@@ -21,8 +21,8 @@ logGreeting()
 // Remember, this function should return the string -- not print it.
 // Then print your name in the console by passing getName() into the console.log() function.
 
-function getName(){
-return "Claribel";
+function getName() {
+  return "Claribel";
 }
 console.log(getName())
 
@@ -31,31 +31,32 @@ console.log(getName())
 // logGreeting2 should call myName() to get your name.
 // Then print your greeting to the console by calling logGreeting2().
 
-function logGreeting2(){
-console.log("Hello! My name is" + getName() + " .")
+function logGreeting2() {
+  let myName = getName()
+  console.log("Hello! My name is " + myName + ".")
 }
 logGreeting2()
 
 // Exercise 4. Write a function that takes 3 parameters that are all numbers.
 // The function should return the sum of the 3 numbers.
 // Then write some function calls you would use to test your function.
-function sumOf(num1,num2,num3){
-return num1 + num2 + num3
+function sumOf(num1, num2, num3) {
+  return num1 + num2 + num3
 }
-console.log(sumOf(1,3,5));
-console.log(sumOf(10,20,30));
-console.log(sumOf(7,8,9));
+console.log(sumOf(1, 3, 5));
+console.log(sumOf(10, 20, 30));
+console.log(sumOf(7, 8, 9));
 
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
 // Then write some function calls you would use to test your function.
-function discount(num){
-if (num <= 14 || num  >= 65){
-return true;
-}else {
-return false;
-}
+function discount(num) {
+  if (num <= 14 || num >= 65) {
+    return true;
+  } else {
+    return false;
+  }
 }
 console.log(discount(5));
 console.log(discount(14));
@@ -67,8 +68,8 @@ console.log(discount(90));
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
 
-function stringTimesNum(string,num){
-console.log(string.repeat(num))
+function stringTimesNum(string, num) {
+  console.log(string.repeat(num))
 };
 stringTimesNum("This string is repeating three times ", 3);
 stringTimesNum("This string is repeating twice ", 2);
